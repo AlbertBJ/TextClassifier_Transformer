@@ -244,3 +244,9 @@ python api/api_service_flask.py
 即可通过指定api接口(本项目中是http://192.168.9.23:8910/predict_online?text=我好开心)访问部署的服务器。<br>
 通过浏览器进行请求：<br>
 ![浏览器请求](https://github.com/Vincent131499/TextClassifier_BERT/raw/master/imgs/api_example.jpg)
+
+## TODO:
+- [ ] fp16 support
+- [ ] add LAMB optimizer
+- [x] train data shuffle
+- [x] do_froze
